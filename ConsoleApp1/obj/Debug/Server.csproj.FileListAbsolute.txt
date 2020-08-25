@@ -4,3 +4,10 @@ C:\Users\mabbasak\ChiffresLettres\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
 C:\Users\mabbasak\ChiffresLettres\ConsoleApp1\obj\Debug\Server.csproj.CoreCompileInputs.cache
 C:\Users\mabbasak\ChiffresLettres\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\mabbasak\ChiffresLettres\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\ConsoleApp1\obj\Debug\Server.csprojAssemblyReference.cache
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\ConsoleApp1\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

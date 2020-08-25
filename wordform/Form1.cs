@@ -28,7 +28,7 @@ namespace wordform
         {
 
             string word = InputTextBox.Text;
-            outputLabel.Text= Connection.ClientConnect(word).ToString();
+            //outputLabel.Text= Connection.ClientConnect(word).ToString();
         //    outputLabel.Text = CheckWord.CheckExistingWords(word).ToString();
         }
     }

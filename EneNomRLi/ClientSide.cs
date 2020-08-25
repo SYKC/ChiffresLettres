@@ -8,38 +8,38 @@ using System.IO;
 
 namespace wordform
 {
-    class Connection
+    class ClientSide
     {
-        public static string ClientConnect(String word)
+        public static void ClientConnect()
         {
         connection:
             try
             {
                 TcpClient client = new TcpClient("127.0.0.1", 1302);
-                // Console.Write("Enter Your name: ");
-                //String Name = Console.ReadLine();
+                Console.Write("Enter Your name: ");
+                String Name = Console.ReadLine();
 
-                string messageToSend = word;
+                string messageToSend = Name;
                 int byteCount = Encoding.ASCII.GetByteCount(messageToSend + 1);
                 byte[] sendData = Encoding.ASCII.GetBytes(messageToSend);
 
                 NetworkStream stream = client.GetStream();
                 stream.Write(sendData, 0, sendData.Length);
-                //Console.WriteLine("sending data to server...");
+                Console.WriteLine("sending data to server...");
 
                 StreamReader sr = new StreamReader(stream);
                 string response = sr.ReadLine();
-                //Console.WriteLine(response);
+                Console.WriteLine(response);
                 
 
                 stream.Close();
                 client.Close();
-                return response;
-                //Console.ReadKey();
+                //return response;
+                Console.ReadKey();
             }
             catch (Exception e)
             {
-                //Console.WriteLine("failed to connect...");
+                Console.WriteLine("failed to connect...");
                 
                 goto connection;
                 //return "failed to connect...";

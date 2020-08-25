@@ -1,0 +1,6 @@
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\EneNomRLi\obj\Debug\EneNomRLi.csproj.CoreCompileInputs.cache
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\EneNomRLi\bin\Debug\EneNomRLi.exe.config
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\EneNomRLi\bin\Debug\EneNomRLi.exe
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\EneNomRLi\bin\Debug\EneNomRLi.pdb
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\EneNomRLi\obj\Debug\EneNomRLi.exe
+C:\Users\syongkwe\Documents\GitHub\ChiffresLettres\EneNomRLi\obj\Debug\EneNomRLi.pdb

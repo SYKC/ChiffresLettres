@@ -9,7 +9,7 @@ using System.IO;
 
 namespace ConsoleApp1
 {
-    class Program
+    class ServerSide
     {
         static void Main(string[] args)
         {
@@ -22,7 +22,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Client accepted.");
                 NetworkStream stream = client.GetStream();
                 StreamReader sr = new StreamReader(client.GetStream());
-                //StreamWriter sw = new StreamWriter(client.GetStream());
+                StreamWriter sw = new StreamWriter(client.GetStream());
                 try
                 {
                     byte[] buffer = new byte[1024];
@@ -37,17 +37,17 @@ namespace ConsoleApp1
                     }
                     string request = Encoding.UTF8.GetString(buffer, 0, recv);
 
-                    List<string> words = LoadWords.LoadWordsList();
-                    bool found = CheckWord.CheckExistingWord(request);
+                    //List<string> words = LoadWords.LoadWordsList();
+                    //bool found = CheckWord.CheckExistingWord(request);
 
-                    Console.WriteLine(found);
-                    //sw.WriteLine("You rock " + request);
-                    //sw.Flush();
+                    //Console.WriteLine(found);
+                    sw.WriteLine("You rock " + request);
+                    sw.Flush();
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine("Something went wrong.");
-                    //sw.WriteLine(e.ToString());
+                    sw.WriteLine(e.ToString());
                 }
             }
 
